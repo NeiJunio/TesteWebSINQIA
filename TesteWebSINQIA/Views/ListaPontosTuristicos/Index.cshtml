@@ -1,0 +1,32 @@
+﻿@model IEnumerable<PontosTuristicosModel>;
+
+<table class="table table-striped table-hover">
+    <thead class="table">
+        <tr>
+            <th scope="col" class="col-1">Id</th>
+            <th scope="col" class="col-2">Nome</th>
+            <th scope="col" class="col-3">Descrição</th>
+            <th scope="col" class="col-2">Endereço</th>
+            <th scope="col" class="col-2">Referência</th>
+            <th scope="col" class="col-2">Cidade</th>
+            <th scope="col" class="col-1">Estado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach (var pontoTuristico in Model)
+            {
+                <tr>
+                    <th scope="row">@pontoTuristico.Id</th>
+                    <td>@pontoTuristico.Nome</td>
+                    <td>@pontoTuristico.Descricao</td>
+                    <td>@pontoTuristico.Endereco</td>
+                    <td>@pontoTuristico.Referencia</td>
+                    <td>@pontoTuristico.Cidade</td>
+                    <td>@pontoTuristico.Estado</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
