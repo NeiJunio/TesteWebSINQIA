@@ -7,28 +7,60 @@ namespace TesteWebSINQIA.Controllers
 {
     public class HomeController : Controller
     {
-         readonly private AppDbContext _dbContext;
+        readonly private AppDbContext _dbContext;
 
         public HomeController(AppDbContext dbContext)
         {
             _dbContext = dbContext;
         }
 
-        public IActionResult Index(int pagina = 1)
+        public IActionResult Index(string termoBusca, int pagina = 1, int itensPorPagina = 6)
         {
-            int itensPorPagina = 6;
-            int totalItens = _dbContext.PontosTuristicos.Count();
+            var consulta = _dbContext.PontosTuristicos.AsQueryable();
 
-            var pontosTuristicos = _dbContext.PontosTuristicos
-                .Skip((pagina - 1) * itensPorPagina) // Pula os itens das páginas anteriores
-                .Take(itensPorPagina) // Pega apenas os 6 itens da página atual
+            // Se um termo de busca for fornecido, filtra os resultados
+            if (!string.IsNullOrWhiteSpace(termoBusca))
+            {
+                consulta = consulta.Where(p => p.Nome.Contains(termoBusca) ||
+                                               p.Cidade.Contains(termoBusca) ||
+                                               p.Estado.Contains(termoBusca));
+            }
+
+            int totalRegistros = consulta.Count();
+            var totalPaginas = (int)Math.Ceiling((double)totalRegistros / itensPorPagina);
+
+            var pontosTuristicos = consulta
+                .Skip((pagina - 1) * itensPorPagina)
+                .Take(itensPorPagina)
                 .ToList();
 
             ViewBag.PaginaAtual = pagina;
-            ViewBag.TotalPaginas = (int)Math.Ceiling((double)totalItens / itensPorPagina);
+            ViewBag.TotalPaginas = totalPaginas;
+            ViewBag.TermoBusca = termoBusca; // Para manter o termo de busca na tela
+
+            if (!pontosTuristicos.Any() && !string.IsNullOrEmpty(termoBusca))
+            {
+                ViewBag.Mensagem = "Nenhum ponto turístico encontrado para a pesquisa.";
+            }
 
             return View(pontosTuristicos);
         }
+
+        // public IActionResult Index(int pagina = 1)
+        // {
+        //     int itensPorPagina = 6;
+        //     int totalItens = _dbContext.PontosTuristicos.Count();
+
+        //     var pontosTuristicos = _dbContext.PontosTuristicos
+        //         .Skip((pagina - 1) * itensPorPagina) // Pula os itens das páginas anteriores
+        //         .Take(itensPorPagina) // Pega apenas os 6 itens da página atual
+        //         .ToList();
+
+        //     ViewBag.PaginaAtual = pagina;
+        //     ViewBag.TotalPaginas = (int)Math.Ceiling((double)totalItens / itensPorPagina);
+
+        //     return View(pontosTuristicos);
+        // }
 
 
         // public IActionResult Index()
