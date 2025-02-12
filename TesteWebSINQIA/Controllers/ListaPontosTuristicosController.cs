@@ -13,11 +13,28 @@ namespace TesteWebSINQIA.Controllers
             _dbContext = dbContext;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int pagina = 1)
         {
-            IEnumerable<PontosTuristicosModel> pontosTuristicos = _dbContext.PontosTuristicos; // busca a model, depois define o nome "pontosTuristicos", em seguida acessa o banco, por meio da váriavel _dbContext, e logo após, acessa a tabela PontosTuristicos por meio do sufixo ".PontosTuristicos"
-            return View(pontosTuristicos); // retorna o Inumerable pontosTuristicos dentor da view
+            int itensPorPagina = 6;
+            int totalItens = _dbContext.PontosTuristicos.Count();
+
+            var pontosTuristicos = _dbContext.PontosTuristicos
+                .Skip((pagina - 1) * itensPorPagina) // Pula os itens das páginas anteriores
+                .Take(itensPorPagina) // Pega apenas os 6 itens da página atual
+                .ToList();
+
+            ViewBag.PaginaAtual = pagina;
+            ViewBag.TotalPaginas = (int)Math.Ceiling((double)totalItens / itensPorPagina);
+
+            return View(pontosTuristicos);
         }
+
+
+        // public IActionResult Index()
+        // {
+        //     IEnumerable<PontosTuristicosModel> pontosTuristicos = _dbContext.PontosTuristicos; // busca a model, depois define o nome "pontosTuristicos", em seguida acessa o banco, por meio da váriavel _dbContext, e logo após, acessa a tabela PontosTuristicos por meio do sufixo ".PontosTuristicos"
+        //     return View(pontosTuristicos); // retorna o Inumerable pontosTuristicos dentor da view
+        // }
 
         public IActionResult Cadastrar()
         {

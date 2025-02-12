@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d+XxSj+STjqsolNG6OiMlv2z33iUgKUIslaisKTay5s=",
+  "Hash": "EWB1w0Vze/1OIA5AVcmvkqEDOOGvSEXF9H8APhn8rUQ=",
   "Source": "TesteWebSINQIA",
   "BasePath": "_content/TesteWebSINQIA",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2e7v51e2d6",
-      "Integrity": "1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw=",
+      "Fingerprint": "hxfsuv1wm8",
+      "Integrity": "W/YzP1R7r27ibnKlIT/X1pv76kQxRuBtwuYqZNeOS0Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "tvzosrotte",
-      "Integrity": "qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc=",
+      "Fingerprint": "banba2148i",
+      "Integrity": "o+xlZRh0v/9sk/0Jy28cMRUD/nwJ9VEev5zNks6Iw/M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1342,51 +1342,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/cadastro.2e7v51e2d6.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "807"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 05:33:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2e7v51e2d6"
-        },
-        {
-          "Name": "label",
-          "Value": "css/cadastro.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw="
-        }
-      ]
-    },
-    {
       "Route": "css/cadastro.css",
       "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
       "Selectors": [],
@@ -1397,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "807"
+          "Value": "811"
         },
         {
           "Name": "Content-Type",
@@ -1405,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw=\""
+          "Value": "\"W/YzP1R7r27ibnKlIT/X1pv76kQxRuBtwuYqZNeOS0Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 05:33:41 GMT"
+          "Value": "Wed, 12 Feb 2025 15:21:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1419,7 +1374,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw="
+          "Value": "sha256-W/YzP1R7r27ibnKlIT/X1pv76kQxRuBtwuYqZNeOS0Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/cadastro.hxfsuv1wm8.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W/YzP1R7r27ibnKlIT/X1pv76kQxRuBtwuYqZNeOS0Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 15:21:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hxfsuv1wm8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/cadastro.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W/YzP1R7r27ibnKlIT/X1pv76kQxRuBtwuYqZNeOS0Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.banba2148i.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o+xlZRh0v/9sk/0Jy28cMRUD/nwJ9VEev5zNks6Iw/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 16:16:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "banba2148i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o+xlZRh0v/9sk/0Jy28cMRUD/nwJ9VEev5zNks6Iw/M="
         }
       ]
     },
@@ -1434,7 +1479,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1219"
+          "Value": "1542"
         },
         {
           "Name": "Content-Type",
@@ -1442,11 +1487,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc=\""
+          "Value": "\"o+xlZRh0v/9sk/0Jy28cMRUD/nwJ9VEev5zNks6Iw/M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 05:31:37 GMT"
+          "Value": "Wed, 12 Feb 2025 16:16:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1456,52 +1501,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.tvzosrotte.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1219"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 05:31:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "tvzosrotte"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc="
+          "Value": "sha256-o+xlZRh0v/9sk/0Jy28cMRUD/nwJ9VEev5zNks6Iw/M="
         }
       ]
     },

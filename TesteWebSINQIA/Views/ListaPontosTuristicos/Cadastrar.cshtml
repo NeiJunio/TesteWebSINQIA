@@ -17,6 +17,7 @@
             <label for="Nome" class="custom-text mb-2">Nome</label>
             <input type="text" asp-for="Nome" class="form-control custom-input" id="Nome"
                 placeholder="Digite o nome do ponto turístico">
+            <span class="text-danger custom-span" asp-validation-for="Nome"></span>
         </div>
 
         @* ENDEREÇO *@
@@ -24,6 +25,8 @@
             <label for="Endereco" class="custom-text mb-2">Endereço</label>
             <input type="text" asp-for="Endereco" class="form-control custom-input" id="Endereco"
                 placeholder="Exemplo: Rua da Paz, 123, Centro">
+            <span class="text-danger custom-span" asp-validation-for="Endereco"></span>
+
         </div>
 
         @* ESTADO e CIDADE *@
@@ -40,6 +43,8 @@
                     <li><a class="dropdown-item custom-dropdown-item" href="#" onclick="setUF('RJ')">RJ</a></li>
                     <li><a class="dropdown-item custom-dropdown-item" href="#" onclick="setUF('MG')">MG</a></li>
                 </ul>
+                            
+
             </div>
 
             @* CIDADE *@
@@ -67,6 +72,8 @@
             <label for="Referencia" class="custom-text mb-2">Referência</label>
             <input type="text" asp-for="Referencia" class="form-control custom-input" id="Referencia"
                 placeholder="Exemplo: Próximo à praça principal ou ponto de ônibus">
+                <span class="text-danger custom-span" asp-validation-for="Referencia"></span>
+
         </div>
 
         @* DESCRIÇÃO *@
@@ -74,6 +81,8 @@
             <label for="Descricao" class="custom-text mb-2">Descrição</label>
             <textarea class="form-control custom-input" asp-for="Descricao" id="Descricao" maxlength="100" rows="3"
                 placeholder="Descreva brevemente o ponto turístico e seus atrativos..."></textarea>
+                <span class="text-danger custom-span" asp-validation-for="Descricao"></span>
+
         </div>
 
 
@@ -82,7 +91,8 @@
         <input type="hidden" asp-for="Cidade" id="Cidade" name="Cidade" />
 
         <div class="w-100 m-auto d-flex justify-content-between py-3">
-            <a  asp-controller="ListaPontosTuristicos" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3">Cancelar</a>
+            <a asp-controller="ListaPontosTuristicos" asp-action="Index" type="reset"
+                class="btn btn-danger w-25 me-3">Cancelar</a>
             <button type="submit" class="btn btn-success w-25 ms-3">Salvar</button>
         </div>
 
