@@ -169,3 +169,4 @@ C:\Users\Nei Junio\Documents\Github\TesteWebSINQIA\TesteWebSINQIA\obj\Debug\net8
 C:\Users\Nei Junio\Documents\Github\TesteWebSINQIA\TesteWebSINQIA\obj\Debug\net8.0\TesteWebSINQIA.pdb
 C:\Users\Nei Junio\Documents\Github\TesteWebSINQIA\TesteWebSINQIA\obj\Debug\net8.0\TesteWebSINQIA.genruntimeconfig.cache
 C:\Users\Nei Junio\Documents\Github\TesteWebSINQIA\TesteWebSINQIA\obj\Debug\net8.0\ref\TesteWebSINQIA.dll
+C:\Users\Nei Junio\Documents\Github\TesteWebSINQIA\TesteWebSINQIA\obj\Debug\net8.0\TesteWebSINQIA.sourcelink.json

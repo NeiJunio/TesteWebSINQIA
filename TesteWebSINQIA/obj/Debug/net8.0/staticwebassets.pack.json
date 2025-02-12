@@ -2,7 +2,11 @@
   "Files": [
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TesteWebSINQIA.74p3g382nu.bundle.scp.css"
+      "PackagePath": "staticwebassets\\TesteWebSINQIA.2xw2xek391.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
+      "PackagePath": "staticwebassets\\css\\cadastro.css"
     },
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SnxTU7uVv+0U/XxFp2QhP3XflKxBifpDhq/qPVvh1RE=",
+  "Hash": "d+XxSj+STjqsolNG6OiMlv2z33iUgKUIslaisKTay5s=",
   "Source": "TesteWebSINQIA",
   "BasePath": "_content/TesteWebSINQIA",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "74p3g382nu",
-      "Integrity": "GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I=",
+      "Fingerprint": "2xw2xek391",
+      "Integrity": "2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TesteWebSINQIA.styles.css"
@@ -52,11 +52,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "74p3g382nu",
-      "Integrity": "GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I=",
+      "Fingerprint": "2xw2xek391",
+      "Integrity": "2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
+      "SourceId": "TesteWebSINQIA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\",
+      "BasePath": "_content/TesteWebSINQIA",
+      "RelativePath": "css/cadastro#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2e7v51e2d6",
+      "Integrity": "1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
       "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "tvzosrotte",
+      "Integrity": "qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1321,8 +1342,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
+      "Route": "css/cadastro.2e7v51e2d6.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,7 +1352,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "807"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1360,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 12:52:12 GMT"
+          "Value": "Wed, 12 Feb 2025 05:33:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,15 +1374,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
+          "Value": "2e7v51e2d6"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/cadastro.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw="
+        }
+      ]
+    },
+    {
+      "Route": "css/cadastro.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "807"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 05:33:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1p+afFKNQBiHBgLXBrA6WKWjju1m/hDeCPoS3NyRFKw="
         }
       ]
     },
@@ -1376,7 +1434,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "1219"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1442,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 12:52:12 GMT"
+          "Value": "Wed, 12 Feb 2025 05:31:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1456,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.tvzosrotte.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Feb 2025 05:31:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tvzosrotte"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qXOqK2ZwThZPQtXClD88ZsFJ5e2sc8xTyG0WwrY/6Dc="
         }
       ]
     },
@@ -6241,7 +6344,7 @@
       ]
     },
     {
-      "Route": "TesteWebSINQIA.74p3g382nu.bundle.scp.css",
+      "Route": "TesteWebSINQIA.2xw2xek391.bundle.scp.css",
       "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6251,7 +6354,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1196"
         },
         {
           "Name": "Content-Type",
@@ -6259,11 +6362,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I=\""
+          "Value": "\"2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:38:33 GMT"
+          "Value": "Tue, 11 Feb 2025 20:04:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6273,7 +6376,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "74p3g382nu"
+          "Value": "2xw2xek391"
         },
         {
           "Name": "label",
@@ -6281,12 +6384,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I="
+          "Value": "sha256-2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc="
         }
       ]
     },
     {
-      "Route": "TesteWebSINQIA.74p3g382nu.styles.css",
+      "Route": "TesteWebSINQIA.2xw2xek391.styles.css",
       "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TesteWebSINQIA.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6296,7 +6399,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1196"
         },
         {
           "Name": "Content-Type",
@@ -6304,11 +6407,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I=\""
+          "Value": "\"2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:38:33 GMT"
+          "Value": "Tue, 11 Feb 2025 20:04:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6318,7 +6421,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "74p3g382nu"
+          "Value": "2xw2xek391"
         },
         {
           "Name": "label",
@@ -6326,7 +6429,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I="
+          "Value": "sha256-2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc="
         }
       ]
     },
@@ -6341,7 +6444,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1196"
         },
         {
           "Name": "Content-Type",
@@ -6349,11 +6452,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I=\""
+          "Value": "\"2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:38:33 GMT"
+          "Value": "Tue, 11 Feb 2025 20:04:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6363,7 +6466,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I="
+          "Value": "sha256-2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc="
         }
       ]
     },
@@ -6378,7 +6481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1132"
+          "Value": "1196"
         },
         {
           "Name": "Content-Type",
@@ -6386,11 +6489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I=\""
+          "Value": "\"2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 13:38:33 GMT"
+          "Value": "Tue, 11 Feb 2025 20:04:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6400,7 +6503,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GWJPOcsoAH3JrWD0IfqyqPIctml6sR8ZAacPp5RFD8I="
+          "Value": "sha256-2jMGmLaNByaGN6OuCr8nwSOiPs4yAzueFboiYGvIhcc="
         }
       ]
     }

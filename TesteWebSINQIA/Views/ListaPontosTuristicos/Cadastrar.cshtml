@@ -1,0 +1,104 @@
+﻿@model PontosTuristicosModel;
+
+@{
+    ViewData["Title"] = "Cadastro - ";
+}
+
+@* REVISAR *@
+<link rel="stylesheet" href="~/css/cadastro.css" asp-append-version="true" />
+
+<div class="container">
+    <div class="text-center py-2 mb-4">
+        <h1 class="text-daek custom-text">Pontos Turísticos</h1>
+    </div>
+    <form method="post" asp-controller="ListaPontosTuristicos" asp-action="cadastrar" class="custom-form w-50 m-auto">
+        @* NOME *@
+        <div class="form-group mb-3">
+            <label for="Nome" class="custom-text mb-2">Nome</label>
+            <input type="text" asp-for="Nome" class="form-control custom-input" id="Nome"
+                placeholder="Digite o nome do ponto turístico">
+        </div>
+
+        @* ENDEREÇO *@
+        <div class="form-group mb-3">
+            <label for="Endereco" class="custom-text mb-2">Endereço</label>
+            <input type="text" asp-for="Endereco" class="form-control custom-input" id="Endereco"
+                placeholder="Exemplo: Rua da Paz, 123, Centro">
+        </div>
+
+        @* ESTADO e CIDADE *@
+        <div class="mt-4 d-flex gap-3">
+            @* ESTADO *@
+            <div class="dropdown" style="flex: 1; min-width: 0;">
+                <a class="btn custom-input-dropdown dropdown-toggle dropdown-estado w-100" href="#" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    UF
+                </a>
+
+                <ul class="dropdown-menu" style="max-height: 200px; overflow-y: auto;">
+                    <li><a class="dropdown-item custom-dropdown-item" href="#" onclick="setUF('SP')">SP</a></li>
+                    <li><a class="dropdown-item custom-dropdown-item" href="#" onclick="setUF('RJ')">RJ</a></li>
+                    <li><a class="dropdown-item custom-dropdown-item" href="#" onclick="setUF('MG')">MG</a></li>
+                </ul>
+            </div>
+
+            @* CIDADE *@
+            <div class="dropdown mb-3" style="flex:3;">
+                <a class="btn custom-input-dropdown dropdown-toggle dropdown-cidade d-flex justify-content-center align-items-center"
+                    href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Selecione a cidade
+                    <i class="bi bi-chevron-down ms-5"></i>
+                </a>
+
+                <ul class="dropdown-menu w-100">
+                    <li><a class="dropdown-item custom-dropdown-item" href="#"
+                            onclick="setCidade('São José do Vale do Rio Preto')">São José
+                            do Vale do Rio Preto</a></li>
+                    <li><a class="dropdown-item custom-dropdown-item" href="#" onclick="setCidade('Rio de Janeiro')">Rio
+                            de Janeiro</a></li>
+                    <li><a class="dropdown-item custom-dropdown-item" href="#"
+                            onclick="setCidade('Belo Horizonte')">Belo Horizonte</a></li>
+                </ul>
+            </div>
+        </div>
+
+        @* REFERÊNCIA *@
+        <div class="form-group mb-3">
+            <label for="Referencia" class="custom-text mb-2">Referência</label>
+            <input type="text" asp-for="Referencia" class="form-control custom-input" id="Referencia"
+                placeholder="Exemplo: Próximo à praça principal ou ponto de ônibus">
+        </div>
+
+        @* DESCRIÇÃO *@
+        <div class="form-group mb-3">
+            <label for="Descricao" class="custom-text mb-2">Descrição</label>
+            <textarea class="form-control custom-input" asp-for="Descricao" id="Descricao" maxlength="100" rows="3"
+                placeholder="Descreva brevemente o ponto turístico e seus atrativos..."></textarea>
+        </div>
+
+
+        @* Campos ocultos para enviar os valores da UF e cidade *@
+        <input type="hidden" asp-for="Estado" id="Estado" name="Estado" />
+        <input type="hidden" asp-for="Cidade" id="Cidade" name="Cidade" />
+
+        <div class="w-100 m-auto d-flex justify-content-between py-3">
+            <a  asp-controller="ListaPontosTuristicos" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3">Cancelar</a>
+            <button type="submit" class="btn btn-success w-25 ms-3">Salvar</button>
+        </div>
+
+    </form>
+
+</div>
+
+
+<script>
+    function setUF(value) {
+        document.getElementById('Estado').value = value;
+        document.querySelector('.dropdown-estado').textContent = value;  // Atualiza o texto do botão de dropdown com a opção selecionada
+    }
+
+    function setCidade(value) {
+        document.getElementById('Cidade').value = value;
+        document.querySelector('.dropdown-cidade').textContent = value;  // Atualiza o texto do botão de dropdown com a opção selecionada
+    }
+</script>
