@@ -34,13 +34,29 @@
     box-shadow: none;
 }
 
-.custom-dropdown-item{
+.custom-dropdown-item {
     background-color: #fff;
     color: #000;
     font-weight: 500;
 }
 
-.custom-dropdown-item:hover{
+.custom-dropdown-item:hover {
     background-color: #f79e7e;
 }
 
+.custom-select {
+    border: 2px solid #6e6e6e;
+    box-shadow: none !important;
+    font-weight: 500;
+    color: #ff4300;
+}
+
+.custom-select:focus {
+    border: 2px solid #fb4400;
+    color: #000000;
+    box-shadow: none;
+}
+
+.custom-option{
+    color: #000;
+}

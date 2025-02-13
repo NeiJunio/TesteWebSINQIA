@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|c:\\users\\nei junio\\documents\\github\\testewebsinqia\\testewebsinqia\\views\\listapontosturisticos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|solutionrelative:testewebsinqia\\views\\listapontosturisticos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|c:\\users\\nei junio\\documents\\github\\testewebsinqia\\testewebsinqia\\views\\listapontosturisticos\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|solutionrelative:testewebsinqia\\views\\listapontosturisticos\\cadastrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|c:\\users\\nei junio\\documents\\github\\testewebsinqia\\testewebsinqia\\views\\listapontosturisticos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|solutionrelative:testewebsinqia\\views\\listapontosturisticos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +46,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
+              "RelativeToolTip": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T15:04:29.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Cadastrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Cadastrar.cshtml",
+              "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Cadastrar.cshtml",
+              "ToolTip": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Cadastrar.cshtml",
+              "RelativeToolTip": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Cadastrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-11T20:24:00.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ListaPontosTuristicosController.cs",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Controllers\\ListaPontosTuristicosController.cs",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Controllers\\ListaPontosTuristicosController.cs",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "TesteWebSINQIA\\Controllers\\ListaPontosTuristicosController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T15:52:31.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T15:52:31.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Index.cshtml",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Index.cshtml",
@@ -59,12 +92,11 @@
               "RelativeToolTip": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T15:42:42.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T15:42:42.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ListaPontosTuristicos.cs",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Controllers\\ListaPontosTuristicos.cs",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Controllers\\ListaPontosTuristicos.cs",

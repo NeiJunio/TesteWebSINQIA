@@ -1,7 +1,7 @@
 ﻿@model PontosTuristicosModel;
 
 @{
-    ViewData["Title"] = "Cadastro - ";
+    ViewData["Title"] = "Edição - ";
 }
 
 @* REVISAR *@
@@ -9,9 +9,12 @@
 
 <div class="container">
     <div class="text-center py-2 mb-4">
-        <h1 class="text-daek custom-text">Cadastro - Ponto Turístico</h1>
+        <h1 class="text-daek custom-text">Edição - Ponto Turístico</h1>
     </div>
-    <form method="post" asp-controller="ListaPontosTuristicos" asp-action="cadastrar" class="custom-form w-50 m-auto">
+    <form method="post" asp-controller="ListaPontosTuristicos" asp-action="editar" class="custom-form w-50 m-auto">
+        @* Capturando o Id enviado *@
+        <input type="hidden" asp-for="Id" />
+
         @* NOME *@
         <div class="form-group mb-3">
             <label for="Nome" class="custom-text mb-2">Nome</label>
@@ -47,7 +50,7 @@
             <div class="form-group w-75">
                 <select class="form-select custom-select" asp-for="Cidade" id="Cidade">
                     <option value="" selected>Selecione o Cidade</option>
-                    <option value="São Paul">São Paulo</option>
+                    <option value="São Paulo">São Paulo</option>
                     <option value="Rio de Janeiro">Rio de Janeiro</option>
                     <option value="Minas Gerais">Minas Gerais</option>
                     <option value="Rio Grande do Sul">Rio Grande do Sul</option>
@@ -76,8 +79,6 @@
 
 
         @* Campos ocultos para enviar os valores da UF e cidade *@
-        @* <input type="hidden" asp-for="Estado" id="Estado" name="Estado" /> *@
-        <input type="hidden" asp-for="Cidade" id="Cidade" name="Cidade" />
 
         <div class="w-100 m-auto d-flex justify-content-between py-3">
             <a asp-controller="Home" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3">Cancelar</a>
@@ -87,3 +88,5 @@
     </form>
 
 </div>
+
+
