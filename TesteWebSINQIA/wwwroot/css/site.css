@@ -22,8 +22,10 @@ html {
 }
 
 body {
+    margin-bottom: 3rem;
     margin-bottom: 60px;
 }
+
 
 /*  CSS CUSTOMIZADO  */
 
@@ -52,7 +54,6 @@ body {
     font-weight: 500;
 }
 
-
 .custom-btn-search {
     background-color: #fb4400;
     transition: transform 0.3s ease-in-out;
@@ -63,7 +64,6 @@ body {
     transition: transform 0.3s ease-in-out;
     font-weight: 500;
 }
-
 
 .custom-btn-new:hover,
 .custom-btn-search:hover {
@@ -78,7 +78,7 @@ body {
 }
 
 .custom-footer {
-    border-top: 3px solid #fb4300;
+    border-top: 3px solid #fb4400;
 }
 
 .custom-footer-div {
@@ -98,7 +98,6 @@ body {
     display: grid;
 }
 
-
 .custom-card {
     display: flex;
     flex-direction: column;
@@ -108,7 +107,6 @@ body {
     background: white;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.24);
     min-height: 275px;
-    /* Ajuste conforme necessário */
 }
 
 .card-body {
@@ -124,7 +122,6 @@ body {
 .btn-primary {
     max-width: 50%;
     margin-top: auto;
-    /* Garante que o botão fique sempre na parte inferior */
 }
 
 .custom-h6 {
@@ -145,13 +142,11 @@ body {
     filter: drop-shadow(.5px .5px .5px #ffffff);
 }
 
-
 .custom-a-edit {
     margin: 0;
     padding: 0;
     width: 30%;
 }
-
 
 .custom-icon-trash,
 .custom-icon-edit {
@@ -163,7 +158,6 @@ body {
 
 .custom-icon-eye {
     font-size: 1.2rem;
-    /* background-color: #258cfb; */
     margin: 0;
 }
 
@@ -174,10 +168,10 @@ body {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #Fb4300;
-    border-color: #fb4300;
+    background-color: #fb4400;
+    border-color: #fb4400;
 }
 
 .custom-arrow-pagination{
-    color: #fb4300;
+    color: #fb4400;
 }

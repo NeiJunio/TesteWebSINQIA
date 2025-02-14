@@ -1,0 +1,40 @@
+﻿@model PontosTuristicosModel;
+
+@{
+    ViewData["Title"] = "Excluir - ";
+}
+
+<link rel="stylesheet" href="~/css/telaExclusao.css" asp-append-version="true" />
+
+<div class="custom-modal container">
+
+    <div class="text-center py-2 mb-4">
+        <h1 class="text-daek custom-text">Confirmar Exclusão?</h1>
+    </div>
+
+    <form method="post" asp-controller="ListaPontosTuristicos" asp-action="excluir">
+
+        @* Capturando o Id enviado *@
+        <input type="hidden" asp-for="Id" />
+
+        <div class="custom-container-info">
+            <h1 class="title">@Model.Nome</h1>
+
+            <p class="description">@Model.Descricao</p>
+
+            <div class="info">
+                <span><strong>Endereço:</strong> @Model.Endereco</span>
+                <span><strong>Referência:</strong> @Model.Referencia</span>
+            </div>
+
+            <div class="location">
+                <span><strong>Localização:</strong> @Model.Cidade - @Model.Estado</span>
+            </div>
+        </div>
+
+        <div class="custom-container-buttons">
+            <a asp-controller="Home" asp-action="index" class="custom-btn-cancel btn btn-danger">Cancelar</a>
+            <button type="submit" class="custom-btn-confirmation btn btn-success">Confirmar</button>
+        </div>
+    </form>
+</div>

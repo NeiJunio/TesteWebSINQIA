@@ -2,15 +2,23 @@
   "Files": [
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TesteWebSINQIA.ava74nknqw.bundle.scp.css"
-    },
-    {
-      "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
-      "PackagePath": "staticwebassets\\css\\cadastro.css"
+      "PackagePath": "staticwebassets\\TesteWebSINQIA.es4tpmq7oe.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaCadastro.css",
+      "PackagePath": "staticwebassets\\css\\telaCadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaEdicao.css",
+      "PackagePath": "staticwebassets\\css\\telaEdicao.css"
+    },
+    {
+      "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaExclusao.css",
+      "PackagePath": "staticwebassets\\css\\telaExclusao.css"
     },
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\favicon.ico",

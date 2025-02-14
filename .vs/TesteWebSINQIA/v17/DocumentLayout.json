@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|c:\\users\\nei junio\\documents\\github\\testewebsinqia\\testewebsinqia\\views\\listapontosturisticos\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|solutionrelative:testewebsinqia\\views\\listapontosturisticos\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|c:\\users\\nei junio\\documents\\github\\testewebsinqia\\testewebsinqia\\views\\listapontosturisticos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4B04758C-464B-4BB5-92D7-845C28E8F9BF}|TesteWebSINQIA\\TesteWebSINQIA.csproj|solutionrelative:testewebsinqia\\views\\listapontosturisticos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Excluir.cshtml",
+              "RelativeToolTip": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T22:59:39.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Cadastrar.cshtml",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Cadastrar.cshtml",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Cadastrar.cshtml",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ListaPontosTuristicosController.cs",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Controllers\\ListaPontosTuristicosController.cs",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Controllers\\ListaPontosTuristicosController.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Index.cshtml",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Index.cshtml",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ListaPontosTuristicos.cs",
               "DocumentMoniker": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Controllers\\ListaPontosTuristicos.cs",
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Controllers\\ListaPontosTuristicos.cs",

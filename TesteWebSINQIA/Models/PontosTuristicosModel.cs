@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TesteWebSINQIA.Models
 {
-    // TEstrutura da Tabela
+    // Estrutura da Tabela
     public class PontosTuristicosModel
     {
         public int Id { get; set; }
@@ -27,7 +27,7 @@ namespace TesteWebSINQIA.Models
         [StringLength(100)]
         public string  Referencia { get; set; } = string.Empty;
         
-        [Required(ErrorMessage = "Selecione uma cidade")]
+        [Required(ErrorMessage = "Digite o nome da cidade")]
         [StringLength(50)] // Tamanho máximo de 50 caracteres
         public string  Cidade { get; set; } = string.Empty;
         

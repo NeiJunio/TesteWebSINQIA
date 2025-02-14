@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
               "ToolTip": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
               "RelativeToolTip": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-13T15:04:29.605Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "TesteWebSINQIA\\Views\\ListaPontosTuristicos\\Cadastrar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T20:24:00.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T20:24:00.332Z"
             },
             {
               "$type": "Document",

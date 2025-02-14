@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FLllOEQQPGXmgPjnHeh/vjxdMR0GttjPORKJoDVbaYo=",
+  "Hash": "L4CiiZs7N2zVcmit32NshhqBMwfsSz4/ViDhfEBBGdY=",
   "Source": "TesteWebSINQIA",
   "BasePath": "_content/TesteWebSINQIA",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "ava74nknqw",
-      "Integrity": "xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA=",
+      "Fingerprint": "es4tpmq7oe",
+      "Integrity": "ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TesteWebSINQIA.styles.css"
@@ -52,32 +52,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "ava74nknqw",
-      "Integrity": "xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA=",
+      "Fingerprint": "es4tpmq7oe",
+      "Integrity": "ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css"
-    },
-    {
-      "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
-      "SourceId": "TesteWebSINQIA",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\",
-      "BasePath": "_content/TesteWebSINQIA",
-      "RelativePath": "css/cadastro#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6rnaicjuif",
-      "Integrity": "wkjMZqE/metVNdM/NMBSCgY9oY5icgKW3mTq+CYeM6c=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
       "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
@@ -94,11 +73,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "abzh8pjpzb",
-      "Integrity": "BkkF/si2zBxURfPLlZguMQQMqrT9SWZOVHbW/H+HciU=",
+      "Fingerprint": "f11gkd44si",
+      "Integrity": "vW5wdAU2j5685ZZcByLZczPDhlPTXtGfzQ23ad2jgVc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaCadastro.css",
+      "SourceId": "TesteWebSINQIA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\",
+      "BasePath": "_content/TesteWebSINQIA",
+      "RelativePath": "css/telaCadastro#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bua6eczq66",
+      "Integrity": "Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\telaCadastro.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaEdicao.css",
+      "SourceId": "TesteWebSINQIA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\",
+      "BasePath": "_content/TesteWebSINQIA",
+      "RelativePath": "css/telaEdicao#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bua6eczq66",
+      "Integrity": "Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\telaEdicao.css"
+    },
+    {
+      "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaExclusao.css",
+      "SourceId": "TesteWebSINQIA",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\",
+      "BasePath": "_content/TesteWebSINQIA",
+      "RelativePath": "css/telaExclusao#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qruy5fj0u7",
+      "Integrity": "uj5fLL9x8nCjNKr7sXGWtzXppoWSiFXlBsOTtJ5nNBE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\telaExclusao.css"
     },
     {
       "Identity": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\favicon.ico",
@@ -1342,133 +1384,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/cadastro.6rnaicjuif.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wkjMZqE/metVNdM/NMBSCgY9oY5icgKW3mTq+CYeM6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 16:44:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6rnaicjuif"
-        },
-        {
-          "Name": "label",
-          "Value": "css/cadastro.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wkjMZqE/metVNdM/NMBSCgY9oY5icgKW3mTq+CYeM6c="
-        }
-      ]
-    },
-    {
-      "Route": "css/cadastro.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\cadastro.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1087"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wkjMZqE/metVNdM/NMBSCgY9oY5icgKW3mTq+CYeM6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 16:44:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wkjMZqE/metVNdM/NMBSCgY9oY5icgKW3mTq+CYeM6c="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.abzh8pjpzb.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3062"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BkkF/si2zBxURfPLlZguMQQMqrT9SWZOVHbW/H+HciU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 14:59:43 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "abzh8pjpzb"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-BkkF/si2zBxURfPLlZguMQQMqrT9SWZOVHbW/H+HciU="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1479,7 +1394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3062"
+          "Value": "3088"
         },
         {
           "Name": "Content-Type",
@@ -1487,11 +1402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BkkF/si2zBxURfPLlZguMQQMqrT9SWZOVHbW/H+HciU=\""
+          "Value": "\"vW5wdAU2j5685ZZcByLZczPDhlPTXtGfzQ23ad2jgVc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Feb 2025 14:59:43 GMT"
+          "Value": "Fri, 14 Feb 2025 03:54:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1501,7 +1416,298 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-BkkF/si2zBxURfPLlZguMQQMqrT9SWZOVHbW/H+HciU="
+          "Value": "sha256-vW5wdAU2j5685ZZcByLZczPDhlPTXtGfzQ23ad2jgVc="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.f11gkd44si.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vW5wdAU2j5685ZZcByLZczPDhlPTXtGfzQ23ad2jgVc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 03:54:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f11gkd44si"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vW5wdAU2j5685ZZcByLZczPDhlPTXtGfzQ23ad2jgVc="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaCadastro.bua6eczq66.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaCadastro.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 04:01:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bua6eczq66"
+        },
+        {
+          "Name": "label",
+          "Value": "css/telaCadastro.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaCadastro.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaCadastro.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 04:01:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaEdicao.bua6eczq66.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaEdicao.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 04:00:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bua6eczq66"
+        },
+        {
+          "Name": "label",
+          "Value": "css/telaEdicao.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaEdicao.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaEdicao.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1075"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 04:00:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y6raNaA5GmAagIdvULamO6RJIRJ59vOsdD9dsvBVx1k="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaExclusao.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaExclusao.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uj5fLL9x8nCjNKr7sXGWtzXppoWSiFXlBsOTtJ5nNBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 04:00:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uj5fLL9x8nCjNKr7sXGWtzXppoWSiFXlBsOTtJ5nNBE="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaExclusao.qruy5fj0u7.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaExclusao.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uj5fLL9x8nCjNKr7sXGWtzXppoWSiFXlBsOTtJ5nNBE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 04:00:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qruy5fj0u7"
+        },
+        {
+          "Name": "label",
+          "Value": "css/telaExclusao.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uj5fLL9x8nCjNKr7sXGWtzXppoWSiFXlBsOTtJ5nNBE="
         }
       ]
     },
@@ -6344,96 +6550,6 @@
       ]
     },
     {
-      "Route": "TesteWebSINQIA.ava74nknqw.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1219"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 19:26:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ava74nknqw"
-        },
-        {
-          "Name": "label",
-          "Value": "TesteWebSINQIA.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA="
-        }
-      ]
-    },
-    {
-      "Route": "TesteWebSINQIA.ava74nknqw.styles.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TesteWebSINQIA.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1219"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 19:26:07 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ava74nknqw"
-        },
-        {
-          "Name": "label",
-          "Value": "TesteWebSINQIA.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA="
-        }
-      ]
-    },
-    {
       "Route": "TesteWebSINQIA.bundle.scp.css",
       "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css",
       "Selectors": [],
@@ -6444,7 +6560,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1219"
+          "Value": "1067"
         },
         {
           "Name": "Content-Type",
@@ -6452,11 +6568,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA=\""
+          "Value": "\"ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 19:26:07 GMT"
+          "Value": "Fri, 14 Feb 2025 03:56:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6466,7 +6582,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA="
+          "Value": "sha256-ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM="
+        }
+      ]
+    },
+    {
+      "Route": "TesteWebSINQIA.es4tpmq7oe.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 03:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "es4tpmq7oe"
+        },
+        {
+          "Name": "label",
+          "Value": "TesteWebSINQIA.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM="
+        }
+      ]
+    },
+    {
+      "Route": "TesteWebSINQIA.es4tpmq7oe.styles.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TesteWebSINQIA.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 03:56:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "es4tpmq7oe"
+        },
+        {
+          "Name": "label",
+          "Value": "TesteWebSINQIA.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM="
         }
       ]
     },
@@ -6481,7 +6687,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1219"
+          "Value": "1067"
         },
         {
           "Name": "Content-Type",
@@ -6489,11 +6695,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA=\""
+          "Value": "\"ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Feb 2025 19:26:07 GMT"
+          "Value": "Fri, 14 Feb 2025 03:56:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6503,7 +6709,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xnIf45K27HVPxmWGU5uZop883IaNYnmDIwUv05p5wsA="
+          "Value": "sha256-ghFV5uMkzOrSSPIl0iGXY2AoUFlr7cxJXZL0RMyE9nM="
         }
       ]
     }

@@ -58,17 +58,17 @@ namespace TesteWebSINQIA.Controllers
 
 
         [HttpPost]
-        public IActionResult Editar(PontosTuristicosModel pontosTuristico)
+        public IActionResult Editar(PontosTuristicosModel pontoTuristico)
         {
             if (ModelState.IsValid)
             {
-                _dbContext.Update(pontosTuristico); // Atualiza os dados no banco
+                _dbContext.Update(pontoTuristico); // Atualiza os dados no banco
                 _dbContext.SaveChanges(); // Salva as alterações no banco
 
                 return RedirectToAction("Index", "Home"); // Sai da página de edição e automaticamente redireciona para a página index
             }
 
-            return View(pontosTuristico);
+            return View(pontoTuristico);
         }
 
 
@@ -91,6 +91,18 @@ namespace TesteWebSINQIA.Controllers
         }
 
 
+        [HttpPost]
+        public IActionResult Excluir(PontosTuristicosModel pontoTuristico)
+        {
+            if(pontoTuristico == null){
+                return NotFound();
+            }
+
+            _dbContext.PontosTuristicos.Remove(pontoTuristico);
+            _dbContext.SaveChanges();
+
+            return RedirectToAction("Index", "Home"); // Sai da página de exclusão e automaticamente redireciona para a página index
+        }
     }
 }
 

@@ -17,8 +17,7 @@
     <nav class="navbar navbar-light d-flex justify-content-center align-items-center w-100">
         <form asp-action="Index" asp-controller="Home" method="get" class="form-inline d-flex w-50 gap-5">
             <input class="form-control custom-input-search mr-sm-2 p-2" type="search" name="termoBusca"
-                placeholder="Digite um termo para buscar um Ponto Turístico..." value="@ViewBag.TermoBusca" />
-
+                placeholder="Digite um termo para buscar um Ponto Turístico..." value="@ViewBag.TermoBusca" /> @* Armazena o valor digitado na variável através da identificação name="termoBusca" *@
             <button class="btn custom-btn-search text-light my-2 my-sm-0 py-2 px-3 d-flex gap-3" type="submit">
                 <i class="bi bi-search"></i> Pesquisar
             </button>
@@ -53,13 +52,13 @@
                                 <i class="bi bi-eye custom-icon-eye"></i>Detalhes</a>
                             <div class="w-50 d-flex justify-content-end align-items-center gap-3">
                                 @* Botão EDITAR *@
-                                <a  asp-controller="ListaPontosTuristicos" asp-action="editar" asp-route-id="@pontoTuristico.Id" class="bg-success custom-a-edit btn"
-                                    title="Editar">
+                                <a asp-controller="ListaPontosTuristicos" asp-action="editar" asp-route-id="@pontoTuristico.Id"
+                                    class="bg-success custom-a-edit btn" title="Editar">
                                     <i class="bi bi-pencil-square custom-icon-edit"></i>
                                 </a>
                                 @* Botão EXCLUIR *@
-                                <a asp-action="Index" asp-controller="Excluir" asp-route-id="@pontoTuristico.Id" class="bg-danger custom-a-edit btn"
-                                    title="Excluir">
+                                <a asp-controller="ListaPontosTuristicos" asp-action="excluir" asp-route-id="@pontoTuristico.Id"
+                                    class="bg-danger custom-a-edit btn" title="Excluir">
                                     <i class="bi bi-trash custom-icon-trash"></i>
                                 </a>
                             </div>
@@ -80,14 +79,13 @@
                     <a class="page-link" asp-action="Index" asp-route-pagina="@(ViewBag.PaginaAtual - 1)"
                         aria-label="Previous">
                         <i aria-hidden="true" class="bi bi-caret-left-fill custom-arrow-pagination"></i>
-                        @* <span aria-hidden="true" style="color:#fb4400;">&laquo;</span> *@
                     </a>
                 </li>
             }
 
             @for (int i = 1; i <= ViewBag.TotalPaginas; i++)
             {
-                <li class="page-item custom-item-page @(i == ViewBag.PaginaAtual ? "active" : "")">
+                <li class="page-item custom-item-page @(i == ViewBag.PaginaAtual ? "active" : "")"> @* Exibe sempre o número atual da página, pois sempre fica atualizado conforme o valor do parametro pagina também é atualizado *@
                     <a class="page-link" asp-action="Index" asp-route-pagina="@i">@i</a>
                 </li>
             }
@@ -96,9 +94,8 @@
             {
                 <li class="page-item">
                     <a class="page-link" asp-action="Index" asp-route-pagina="@(ViewBag.PaginaAtual + 1)" aria-label="Next">
+                        @* Aumenta 1 na variável pagina, que é enviada pela url por meio da asp-route-pagina*@
                         <i aria-hidden="true" class="bi bi-caret-right-fill custom-arrow-pagination"></i>
-
-                        @* <span aria-hidden="true" style="color:#fb4400;">&raquo;</span> *@
                     </a>
                 </li>
             }
@@ -106,10 +103,9 @@
     </nav>
 </div>
 
-
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        const searchInput = document.querySelector("input[name='termoBusca']");
+        const searchInput = document.querySelector("input[name='termoBusca']"); // Busca  o elemento Previous meio detalhes propriedade nome
         const form = searchInput.closest("form");
 
         searchInput.addEventListener("input", function () {

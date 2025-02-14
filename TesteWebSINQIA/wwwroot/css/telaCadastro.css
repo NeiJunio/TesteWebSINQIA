@@ -1,3 +1,7 @@
+.custom-container{
+    margin-bottom: 3rem;
+}
+
 .custom-form {
     background-color: #e5e5e5;
     padding: 10px;
@@ -23,7 +27,6 @@
     border: 2px solid #6e6e6e;
     box-shadow: none !important;
     font-weight: 500;
-    /* color: #fb4400; */
 }
 
 .custom-input-dropdown:hover,
@@ -48,7 +51,7 @@
     border: 2px solid #6e6e6e;
     box-shadow: none !important;
     font-weight: 500;
-    color: #ff4300;
+    color: #fb4400;
 }
 
 .custom-select:focus {
@@ -57,6 +60,3 @@
     box-shadow: none;
 }
 
-.custom-option{
-    color: #000;
-}
