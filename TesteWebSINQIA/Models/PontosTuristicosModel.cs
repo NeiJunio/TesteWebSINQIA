@@ -35,7 +35,6 @@ namespace TesteWebSINQIA.Models
         [StringLength(2)] // Tamanho máximo de 2 caracteres (Armazanará apenas as siglas. Ex: SP, RJ, MG...)
         public string  Estado { get; set; } = string.Empty;
 
-        // [Required(ErrorMessage = "")]
         public DateTime DataCriacao {get; set;} = DateTime.Now; // captura automaticamente a data e hora da criação do registro
     }
 }

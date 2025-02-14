@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A3kGp3wcB4FSZX5tdFs55Z+Vd/FAC7YtKm5INZPgRGs=",
+  "Hash": "Qqhp8Tw31JhboLeHQYp3q6lfhW/5ABdBVemen202Ra8=",
   "Source": "TesteWebSINQIA",
   "BasePath": "_content/TesteWebSINQIA",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5xvuoql8qw",
-      "Integrity": "GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY=",
+      "Fingerprint": "zocwj3ycqd",
+      "Integrity": "vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\telaDetalhes.css"
@@ -157,8 +157,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "evdxdx0yhp",
-      "Integrity": "epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M=",
+      "Fingerprint": "1zbmkstfkh",
+      "Integrity": "4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\telaExclusao.css"
@@ -1569,51 +1569,6 @@
       ]
     },
     {
-      "Route": "css/telaDetalhes.5xvuoql8qw.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaDetalhes.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1394"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 17:19:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5xvuoql8qw"
-        },
-        {
-          "Name": "label",
-          "Value": "css/telaDetalhes.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY="
-        }
-      ]
-    },
-    {
       "Route": "css/telaDetalhes.css",
       "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaDetalhes.css",
       "Selectors": [],
@@ -1624,7 +1579,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1394"
+          "Value": "1415"
         },
         {
           "Name": "Content-Type",
@@ -1632,11 +1587,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY=\""
+          "Value": "\"vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 17:19:06 GMT"
+          "Value": "Fri, 14 Feb 2025 17:37:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1646,7 +1601,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY="
+          "Value": "sha256-vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaDetalhes.zocwj3ycqd.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaDetalhes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 17:37:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zocwj3ycqd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/telaDetalhes.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o="
         }
       ]
     },
@@ -1733,6 +1733,51 @@
       ]
     },
     {
+      "Route": "css/telaExclusao.1zbmkstfkh.css",
+      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaExclusao.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 17:33:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1zbmkstfkh"
+        },
+        {
+          "Name": "label",
+          "Value": "css/telaExclusao.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ="
+        }
+      ]
+    },
+    {
       "Route": "css/telaExclusao.css",
       "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaExclusao.css",
       "Selectors": [],
@@ -1743,7 +1788,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1167"
+          "Value": "1218"
         },
         {
           "Name": "Content-Type",
@@ -1751,11 +1796,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M=\""
+          "Value": "\"4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 04:32:19 GMT"
+          "Value": "Fri, 14 Feb 2025 17:33:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1765,52 +1810,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M="
-        }
-      ]
-    },
-    {
-      "Route": "css/telaExclusao.evdxdx0yhp.css",
-      "AssetFile": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaExclusao.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1167"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 04:32:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "evdxdx0yhp"
-        },
-        {
-          "Name": "label",
-          "Value": "css/telaExclusao.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M="
+          "Value": "sha256-4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ="
         }
       ]
     },

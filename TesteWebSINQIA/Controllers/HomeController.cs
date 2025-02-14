@@ -30,14 +30,17 @@ namespace TesteWebSINQIA.Controllers
             {
                 consulta = consulta.Where(pontoTuristico => pontoTuristico.Nome.Contains(termoBusca) ||
                                                             pontoTuristico.Cidade.Contains(termoBusca) ||
-                                                            pontoTuristico.Estado.Contains(termoBusca));
+                                                            pontoTuristico.Estado.Contains(termoBusca) ||
+                                                            pontoTuristico.Descricao.Contains(termoBusca) ||
+                                                            pontoTuristico.Endereco.Contains(termoBusca) ||
+                                                            pontoTuristico.Referencia.Contains(termoBusca));
             }
 
             consulta = consulta.OrderByDescending(pontoTuristico => pontoTuristico.DataCriacao); // ordena listagem por data decrescente de criação
 
             int totalRegistros = consulta.Count(); // conta quantos registros existe
             var totalPaginas = (int)Math.Ceiling((double)totalRegistros / itensPorPagina); // TOTAL DE PÁGINAS: divide o número total de registros pelo valor da variável itensPorPagina(6) que foi passado no parâmetro do método. O resultado, se for um resultado decimal, "arredonda" para o próximo número inteiro
-            
+
             var pontosTuristicos = consulta
                 .Skip((pagina - 1) * itensPorPagina) // SKIP significa pular, e nesse caso é usado para "pular" as páginas anteriores;  pagina sempre começa com valor 1, conforme definido por parametro, e após isso, cada vez que avança na paginação, +1 é adicionado ao valor da variável pagina la no front por meio da propriedade asp-route-pagina, e esse novo valor é recuperado aqui no método 
                 .Take(itensPorPagina)

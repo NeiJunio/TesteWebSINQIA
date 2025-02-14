@@ -249,51 +249,6 @@
       ]
     },
     {
-      "Route": "css/telaDetalhes.5xvuoql8qw.css",
-      "AssetFile": "css/telaDetalhes.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1394"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 17:19:06 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5xvuoql8qw"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY="
-        },
-        {
-          "Name": "label",
-          "Value": "css/telaDetalhes.css"
-        }
-      ]
-    },
-    {
       "Route": "css/telaDetalhes.css",
       "AssetFile": "css/telaDetalhes.css",
       "Selectors": [],
@@ -308,7 +263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1394"
+          "Value": "1415"
         },
         {
           "Name": "Content-Type",
@@ -316,17 +271,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY=\""
+          "Value": "\"vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 17:19:06 GMT"
+          "Value": "Fri, 14 Feb 2025 17:37:07 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-GQ1aUQSyd59xjnRZgGwi08SOmE2Ygmkao+9EvmtxzxY="
+          "Value": "sha256-vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o="
+        }
+      ]
+    },
+    {
+      "Route": "css/telaDetalhes.zocwj3ycqd.css",
+      "AssetFile": "css/telaDetalhes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1415"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 17:37:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zocwj3ycqd"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vfhYDzH1eKHDqjchBcG7JltG1ziVvSyhEFLoFdC2B+o="
+        },
+        {
+          "Name": "label",
+          "Value": "css/telaDetalhes.css"
         }
       ]
     },
@@ -413,6 +413,51 @@
       ]
     },
     {
+      "Route": "css/telaExclusao.1zbmkstfkh.css",
+      "AssetFile": "css/telaExclusao.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Feb 2025 17:33:03 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1zbmkstfkh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ="
+        },
+        {
+          "Name": "label",
+          "Value": "css/telaExclusao.css"
+        }
+      ]
+    },
+    {
       "Route": "css/telaExclusao.css",
       "AssetFile": "css/telaExclusao.css",
       "Selectors": [],
@@ -427,7 +472,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1167"
+          "Value": "1218"
         },
         {
           "Name": "Content-Type",
@@ -435,62 +480,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M=\""
+          "Value": "\"4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 04:32:19 GMT"
+          "Value": "Fri, 14 Feb 2025 17:33:03 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M="
-        }
-      ]
-    },
-    {
-      "Route": "css/telaExclusao.evdxdx0yhp.css",
-      "AssetFile": "css/telaExclusao.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1167"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 14 Feb 2025 04:32:19 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "evdxdx0yhp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-epVdvqu3ZEobS9mBYxPzOS86WZ7tCrT2vSHp3el594M="
-        },
-        {
-          "Name": "label",
-          "Value": "css/telaExclusao.css"
+          "Value": "sha256-4wWTVMbvIzXavtyxYYboAe/utmcIw/fv5EyaoxF9mNQ="
         }
       ]
     },

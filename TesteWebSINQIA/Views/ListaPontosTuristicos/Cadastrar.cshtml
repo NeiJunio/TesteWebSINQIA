@@ -70,17 +70,6 @@
                     placeholder="Digite o nome da Cidade">
                 <span class="text-danger custom-span" asp-validation-for="Cidade"></span>
             </div>
-
-            @* <div class="form-group w-75">
-                <select class="form-select custom-select" asp-for="Cidade" id="Cidade">
-                    <option value="" selected>Selecione o Cidade</option>
-                    <option value="São Paul">São Paulo</option>
-                    <option value="Rio de Janeiro">Rio de Janeiro</option>
-                    <option value="Minas Gerais">Minas Gerais</option>
-                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
-                </select>
-                <span class="text-danger custom-span" asp-validation-for="Estado"></span>
-            </div> *@
         </div>
 
         @* REFERÊNCIA *@
@@ -95,19 +84,23 @@
         <div class="form-group mb-3">
             <label for="Descricao" class="custom-text mb-2">Descrição</label>
             <textarea class="form-control custom-input" asp-for="Descricao" id="Descricao" maxlength="100" rows="3"
-                placeholder="Descreva brevemente o ponto turístico e seus atrativos..."></textarea>
+                placeholder="Descreva brevemente o ponto turístico e seus atrativos..." style="resize: none;"></textarea>
             <span class="text-danger custom-span" asp-validation-for="Descricao"></span>
         </div>
 
         <div class="w-100 m-auto d-flex justify-content-between py-3">
-            <a asp-controller="Home" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3">Cancelar</a>
-            <button type="submit" class="btn btn-success w-25 ms-3">Salvar</button>
+            <a asp-controller="Home" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3 fw-bold">Cancelar</a>
+            <button type="submit" class="btn btn-success w-25 ms-3 fw-bold">Salvar</button>
         </div>
     </form>
 </div>
 
 <script>
     document.getElementById("Nome").addEventListener("input", function () {
+        this.value = this.value.toUpperCase();
+    })
+
+    document.getElementById("Endereco").addEventListener("input", function () {
         this.value = this.value.toUpperCase();
     })
 

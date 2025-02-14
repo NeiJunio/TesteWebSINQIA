@@ -23,30 +23,6 @@
     box-shadow: none;
 }
 
-.custom-input-dropdown {
-    border: 2px solid #6e6e6e;
-    box-shadow: none !important;
-    font-weight: 500;
-}
-
-.custom-input-dropdown:hover,
-.custom-input-dropdown:focus {
-    border: 2px solid #fb4400;
-    background-color: #fb4400;
-    color: white;
-    box-shadow: none;
-}
-
-.custom-dropdown-item {
-    background-color: #fff;
-    color: #000;
-    font-weight: 500;
-}
-
-.custom-dropdown-item:hover {
-    background-color: #f79e7e;
-}
-
 .custom-select {
     border: 2px solid #6e6e6e;
     box-shadow: none !important;
