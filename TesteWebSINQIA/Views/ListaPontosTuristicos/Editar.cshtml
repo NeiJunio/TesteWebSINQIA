@@ -91,9 +91,11 @@
             <span class="text-danger custom-span" asp-validation-for="Descricao"></span>
         </div>
 
+        <input type="hidden" asp-for="DataCriacao" />
+
         <div class="w-100 m-auto d-flex justify-content-between py-3">
-            <a asp-controller="Home" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3">Cancelar</a>
-            <button type="submit" class="btn btn-success w-25 ms-3">Salvar</button>
+            <a asp-controller="Home" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3 fw-bold">Cancelar</a>
+            <button type="submit" class="btn btn-success w-25 ms-3 fw-bold">Salvar</button>
         </div>
     </form>
 </div>

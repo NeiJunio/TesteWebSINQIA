@@ -1,0 +1,46 @@
+﻿@model PontosTuristicosModel;
+
+@{
+    ViewData["Title"] = "Detalhes - ";
+}
+
+<link rel="stylesheet" href="~/css/telaDetalhes.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<div class="custom-title-detalhes d-flex justify-content-between align-items-center">
+    <h1 class="text-daek custom-text">Detalhes - Ponto Turístico</h1>
+    <a asp-controller="ListaPontosTuristicos" asp-action="editar" asp-route-id="@Model.Id"
+        class="d-flex  btn btn-success custom-btn-new fw-bold text-light px-4"><i
+            class="bi bi-pencil-square custom-icon me-3"></i>
+        Editar</a>
+</div>
+
+<div class="container custom-container">
+    <form method="" asp-controller="ListaPontosTuristicos" asp-action="detalhes">
+        @* Capturando o Id enviado *@
+        <input type="hidden" asp-for="Id" />
+
+        <div class="custom-container-info">
+            <h1 class="title">@Model.Nome</h1>
+
+            <p class="description">@Model.Descricao</p>
+
+            <div class="info">
+                <span asp-for="Nome"><strong>Endereço:</strong> @Model.Endereco</span>
+                <span><strong>Referência:</strong> @Model.Referencia</span>
+            </div>
+
+            <div class="location">
+                <span><strong>Localização:</strong> @Model.Cidade - @Model.Estado</span>
+            </div>
+
+            <div class="date">
+                <span><strong>Data de Criação:</strong> @Model.DataCriacao.ToString("dd/MM/yyyy - HH:mm")</span>
+            </div>
+        </div>
+
+        <div class="custom-container-buttons">
+            <a asp-controller="Home" asp-action="index" class="custom-btn-cancel btn btn-danger fw-bold">Fechar</a>
+        </div>
+    </form>
+</div>

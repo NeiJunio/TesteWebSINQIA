@@ -1,6 +1,16 @@
+.custom-text {
+    color: #fb4400;
+    font-weight: 500;
+}
+
+.custom-title-detalhes {
+    width: 65%;
+    padding: 25px;
+    margin: auto;
+}
+
 .custom-container-info {
     width: 65%;
-    /* min-height: 400px; */
     background: #d1d1d1;
     border-radius: 12px;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
@@ -33,7 +43,8 @@
 }
 
 .info,
-.location {
+.location,
+.date {
     font-size: 16px;
     color: #444;
     display: flex;
@@ -45,15 +56,21 @@
 }
 
 .info span,
-.location span {
+.location span,
+.date span {
     font-weight: 500;
+}
+
+.date {
+    font-size: 14px;
+    color: #666;
 }
 
 .custom-container-buttons {
     margin: 5rem auto;
     width: 50%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 

@@ -103,6 +103,25 @@ namespace TesteWebSINQIA.Controllers
 
             return RedirectToAction("Index", "Home"); // Sai da página de exclusão e automaticamente redireciona para a página index
         }
+
+
+        [HttpGet]
+        public IActionResult Detalhes(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound(); // Se o Id for nulo ou igual a zero, retornará a mensagem de erro (NotFound)
+            }
+
+            var pontoTuristico = _dbContext.PontosTuristicos.FirstOrDefault(pontoTuristico => pontoTuristico.Id == id);
+
+            if (pontoTuristico == null)
+            {
+                return NotFound(); // Se não encontrar o ponto turístico, retornará a mensagem de erro (NotFound)
+            }
+
+            return View(pontoTuristico);
+        }
     }
 }
 

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TesteWebSINQIA.bundle.scp.css",
-      "PackagePath": "staticwebassets\\TesteWebSINQIA.es4tpmq7oe.bundle.scp.css"
+      "PackagePath": "staticwebassets\\TesteWebSINQIA.zisioz5y36.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\site.css",
@@ -11,6 +11,10 @@
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaCadastro.css",
       "PackagePath": "staticwebassets\\css\\telaCadastro.css"
+    },
+    {
+      "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaDetalhes.css",
+      "PackagePath": "staticwebassets\\css\\telaDetalhes.css"
     },
     {
       "Id": "C:\\Users\\Nei Junio\\Documents\\Github\\TesteWebSINQIA\\TesteWebSINQIA\\wwwroot\\css\\telaEdicao.css",
