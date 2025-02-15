@@ -14,7 +14,7 @@ namespace TesteWebSINQIA.Controllers
             _dbContext = dbContext;
         }
 
-        public IActionResult Index(string termoBusca, int pagina = 1, int itensPorPagina = 6) // a strinf termoBusca vem com o valor que foi captado no front, dentro do input identificado com name="termoBusca", ou seja, através dessa identificação no front, armazena-se o valor na variável, e aqui no método esse valor é recuperado
+        public IActionResult Index(string termoBusca, int pagina = 1, int itensPorPagina = 6) // a string termoBusca vem com o valor que foi captado no front, dentro do input identificado com name="termoBusca", ou seja, através dessa identificação no front, armazena-se o valor na variável, e aqui no método esse valor é recuperado
         {
             var consulta = _dbContext.PontosTuristicos.AsQueryable(); // navega até o banco, e transforma a tabela PontosTurísticos em uma tabela "consultável"
 

@@ -32,7 +32,7 @@ namespace TesteWebSINQIA.Models
         public string  Cidade { get; set; } = string.Empty;
         
         [Required(ErrorMessage = "Selecione um estado")]
-        [StringLength(2)] // Tamanho máximo de 2 caracteres (Armazanará apenas as siglas. Ex: SP, RJ, MG...)
+        [StringLength(2)] // Tamanho máximo de 2 caracteres (Armazenará apenas as siglas. Ex: SP, RJ, MG...)
         public string  Estado { get; set; } = string.Empty;
 
         public DateTime DataCriacao {get; set;} = DateTime.Now; // captura automaticamente a data e hora da criação do registro

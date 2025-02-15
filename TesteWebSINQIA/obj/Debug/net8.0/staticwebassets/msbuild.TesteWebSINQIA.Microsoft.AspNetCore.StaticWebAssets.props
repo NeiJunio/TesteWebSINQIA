@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>stscwum9eo</Fingerprint>
-      <Integrity>EOvp1tBweTqrbGpcK/ZEV8bPMpritTJKzi/wTEUmBZw=</Integrity>
+      <Fingerprint>hfv2293cgp</Fingerprint>
+      <Integrity>nUHxRLVlOKoc8bLgW4ir8ouUXRQLzGbe3tCNGtPRVYw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1gls518r8c</Fingerprint>
-      <Integrity>kWRgLCX0iy80YUn7xbdtDX+KOT+RI0KCFeMc0mKFdaQ=</Integrity>
+      <Fingerprint>lepdsq1eyp</Fingerprint>
+      <Integrity>3ZVYYEcnCvVTvdYNLXBDiQj5Wc+JAO/y+gGo1brIrjA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\telaCadastro.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1gls518r8c</Fingerprint>
-      <Integrity>kWRgLCX0iy80YUn7xbdtDX+KOT+RI0KCFeMc0mKFdaQ=</Integrity>
+      <Fingerprint>lepdsq1eyp</Fingerprint>
+      <Integrity>3ZVYYEcnCvVTvdYNLXBDiQj5Wc+JAO/y+gGo1brIrjA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\telaEdicao.css'))</OriginalItemSpec>
@@ -1152,23 +1152,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteWebSINQIA.zisioz5y36.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteWebSINQIA.icg4zgvgg3.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>TesteWebSINQIA</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/TesteWebSINQIA</BasePath>
-      <RelativePath>TesteWebSINQIA.zisioz5y36.bundle.scp.css</RelativePath>
+      <RelativePath>TesteWebSINQIA.icg4zgvgg3.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>zisioz5y36</Fingerprint>
-      <Integrity>FUtMX5H8BbbY1C3iiAUlYz/ukLzj6KZuiyHUwse+9rg=</Integrity>
+      <Fingerprint>icg4zgvgg3</Fingerprint>
+      <Integrity>PqEOFCqOu8zhZP1dg7NqK1fjSfa3qs/3DCp13Ap3iyI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteWebSINQIA.zisioz5y36.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TesteWebSINQIA.icg4zgvgg3.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
