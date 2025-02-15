@@ -1,13 +1,13 @@
-# Teste Web - SINQIA
+# <p style="text-align: center; font-size: 40px; color:rgb(255, 114, 62);">Teste Web - SINQIA</p>
 
-## Descrição
-<p style="text-align: justify; margin-bottom:3rem">
+## 📝 Descrição
+<p style="text-align: justify;">
 Este é um projeto ASP.NET Core MVC desenvolvido para o Teste Técnico da SINQIA. Consiste em um sistema para gerenciamento de pontos turísticos, sendo possível cadastrar, listar, editar, ver detalhes e excluir pontos turísticos, garantindo um controle eficiente dessas informações.
 </p>
 
-<hr style="margin-bottom:3rem"/>
+<br>
 
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 - .NET 8.0
 
 - ASP.NET Core MVC
@@ -22,12 +22,11 @@ Este é um projeto ASP.NET Core MVC desenvolvido para o Teste Técnico da SINQIA
 
 - jQuery
 
-<hr style="margin:3rem 0"/>
-
+<br>
 
 ## 📁 Estrutura do Projeto
 
-<!-- ```bash
+```json
 neijunio-testewebsinqia/
 ├── README.md
 ├── TesteWebSINQIA.sln
@@ -37,18 +36,18 @@ neijunio-testewebsinqia/
     ├── appsettings.Development.json
     ├── appsettings.json
     ├── Controllers/
-    │   ├── HomeController.cs
-    │   └── ListaPontosTuristicosController.cs
+    │   ├── HomeController.cs    // Controla a página inicial
+    │   └── ListaPontosTuristicosController.cs    // CRUD dos pontos turísticos
     ├── Data/
-    │   └── AppDbContext.cs
+    │   └── AppDbContext.cs     // Contexto do banco de dados.
     ├── Migrations/
     │   ├── 20250211133835_CriacaoDoBanco.Designer.cs
     │   ├── 20250211133835_CriacaoDoBanco.cs
     │   └── AppDbContextModelSnapshot.cs
     ├── Models/
     │   ├── ErrorViewModel.cs
-    │   └── PontosTuristicosModel.cs
-    ├── Views/
+    │   └── PontosTuristicosModel.cs    // Representa um ponto turístico.
+    ├── Views/    // Contém as views (páginas HTML).
     │   ├── Home/
     │   │   ├── Index.cshtml
     │   │   └── Privacy.cshtml
@@ -61,19 +60,19 @@ neijunio-testewebsinqia/
     │       ├── Error.cshtml
     │       ├── _Layout.cshtml
     │       └── _ValidationScriptsPartial.cshtml
-    ├── wwwroot/
+    ├── wwwroot/    // Arquivos estáticos, como CSS, Js e libs externas.
     │   ├── css/
     │   ├── js/
     │   └── lib/
     └── Properties/
         └── launchSettings.json
-``` -->
+```
 
-<hr style="margin:3rem 0"/>
+<br>
 
-# 🛠️ Pré-requisitos para rodar o programa
+## 🛠️ Pré-requisitos para rodar o programa
 
-- .NET 8 SDK ( [Download](https://dotnet.microsoft.com/en-us/download) )
+- .NET 8 SDK ou .NET 9 SDK ( [Download](https://dotnet.microsoft.com/en-us/download) )
 
 - SQL Server ( [Download](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) )
 
@@ -81,11 +80,11 @@ neijunio-testewebsinqia/
 
 - Visual Studio 2022 (recomendado) ( [Download](https://visualstudio.microsoft.com/pt-br/vs/community/) )
 
-<hr style="margin:3rem 0"/>
+<br><br>
 
-# 🚀 Como rodar o projeto
+## 🚀 Como rodar o projeto
 
-### 1. Clonar o repositório
+### 1. Clone o repositório
    ```bash
     git clone https://github.com/NeiJunio/TesteWebSINQIA.git
    ```
@@ -94,9 +93,8 @@ neijunio-testewebsinqia/
    ```bash
    cd .\TesteWebSINQIA\
    ```
-<!-- <br> -->
 
-### 3. Configurar o banco de dados
+### 3. Configure o banco de dados
 * 1-  No arquivo appsettings.json, configure a string de conexão:
    ```json
    "ConnectionStrings": {
@@ -106,27 +104,31 @@ neijunio-testewebsinqia/
    }
    ```
 
-* 2- No terminal, instalar todas as dependências do projeto:
+* 2- No terminal, instale todas as dependências do projeto:
    ```bash
     dotnet restore
    ```
 
-* 3- Aplicar as migrations e atualizar o banco de dados:
+* 3- Instale Ferramente CLI dotnet-ef (gloabalmente)
+   ```bash
+    dotnet tool install --global dotnet-ef
+   ```
+
+* 4- Aplique as migrations e atualize o banco de dados:
    ```bash
     dotnet ef database update
    ```
 
-* 4- Rodar o projeto:
+* 5- Rode o projeto:
    ```bash
     dotnet run
    ```
 
-    ou se estiver usando o Visual Studio, pressione  `F5`
+    ou, se estiver usando o Visual Studio, pressione  `F5`
 
+<br>
 
-
-
-* <p>OBSERVAÇÃO: Se o comando "<i>dotnet restore</i>" não instalar as dependências do Entity Framework, execute os seguintes comandos no terminal:</p>
+* <p>OBSERVAÇÃO: Se o comando "<i>dotnet restore</i>" não instalar as dependências completas, execute os seguintes comandos no terminal:</p>
   
    ```sh
     dotnet add package Microsoft.EntityFrameworkCore
@@ -134,3 +136,33 @@ neijunio-testewebsinqia/
     dotnet add package Microsoft.EntityFrameworkCore.Tools
     dotnet add package Microsoft.EntityFrameworkCore.Design
    ```
+
+<br>
+
+## 🔧 Funcionalidades
+
+* Listagem de pontos turísticos.
+
+* Visualização de detalhes de um determinado ponto turístico
+
+* Cadastro de novos pontos turísticos.
+
+* Edição e exclusão de registros.
+
+* Validação de formulários.
+
+<br>
+
+## 🤝 Contribuição
+
+Se quiser contribuir, siga os passos:
+
+1. Fork este repositório.
+
+2. Crie uma branch com sua funcionalidade (`git checkout -b minha-feature`).
+
+3. Commit suas mudanças (`git commit -m 'feat: minha nova feature'`).
+
+4. Envie para o repositório (`git push origin minha-feature`).
+
+5. Abra um <strong><i>Pull Request.</i></strong>
