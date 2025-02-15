@@ -26,7 +26,7 @@ Este é um projeto ASP.NET Core MVC desenvolvido para o Teste Técnico da SINQIA
 
 ## 📁 Estrutura do Projeto
 
-```json
+```bash
 neijunio-testewebsinqia/
 ├── README.md
 ├── TesteWebSINQIA.sln
