@@ -1,0 +1,7 @@
+-- 4) Criar um comando DELETE que exclua clientes com código do cliente entre a numeração 100 e 200. 
+
+  DELETE clientes
+   WHERE cli.id > 100 AND cli < 200
+
+
+ -- No meu entendimento, os registros 100 e 200 não são inclusos

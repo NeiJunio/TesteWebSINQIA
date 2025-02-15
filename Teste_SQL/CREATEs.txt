@@ -1,0 +1,15 @@
+CREATE TABLE cidades (
+    cidade_id INT IDENTITY(1,1) PRIMARY KEY,  -- Chave Primária incrementável
+    cidade_nome VARCHAR(100) NOT NULL, 
+    cidade_estado VARCHAR(2) NOT NULL
+);
+
+CREATE TABLE clientes (
+    cli_id INT IDENTITY(1,1) PRIMARY KEY,  -- Chave Primária incrementável
+    cli_nome VARCHAR(150) NOT NULL,
+    cidade_id INT NOT NULL,
+    cli_email VARCHAR(100) UNIQUE,
+    cli_telefone VARCHAR(20),
+    CONSTRAINT FK_clientes_cidades FOREIGN KEY (cidade_id)  -- ligação com a chave estrangeira
+        REFERENCES cidades(cidade_id) ON DELETE CASCADE  -- DELETE CASCADE -> se excluir uma cidade, exclui também os clientes relacionados a ela
+);

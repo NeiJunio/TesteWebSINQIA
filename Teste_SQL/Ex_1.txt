@@ -1,0 +1,10 @@
+-- 1) Criar um comando SELECT que retorne APENAS o nome dos clientes da cidade “TUPA”. Utilizar o EXISTS para realizar a condição.
+
+SELECT cli.cli_nome 
+  FROM clientes cli
+ WHERE EXISTS (
+    SELECT 1 
+    FROM cidades cid
+    WHERE cid.cidade_id = cli.cidade_id
+      AND cid.cidade_nome = 'TUPA'
+);

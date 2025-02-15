@@ -1,0 +1,8 @@
+-- 6) Criar um comando INSERT na tabela de clientes de um registro qualquer com todos os campos da  tabela. (valores livres) 
+
+-- INSERT INTO clientes (cli_nome, cidade_id, cli_email, cli_telefone)
+--               VALUES (?, ?, ?, ?);
+
+
+INSERT INTO clientes (cli_nome, cidade_id, cli_email, cli_telefone)
+			  VALUES ('Nei Junio', 2, 'emailteste@email.com', '(99) 98765-4321');

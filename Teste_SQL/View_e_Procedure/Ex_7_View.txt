@@ -1,0 +1,9 @@
+-- 6) Criar uma view para consultar os registros contidos na tabela CIDADES. (Criar um arquivo separado); 
+
+CREATE VIEW view_cidades AS
+	 SELECT *
+	   FROM cidades
+
+
+-- Para executar a view: 
+-- SELECT * FROM view_cidades

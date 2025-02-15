@@ -1,0 +1,29 @@
+Objetivo  
+Teste Prático de Lógica 
+Monte um arquivo texto com um algoritmo, passo a passo, para troca de um pneu de carro que furou. 
+
+
+1- Estacionar o carro em local seguro
+2- Desligar o carro
+3- Ligar o pisca-alerta
+4- Soltar o cinto de segurança e sair do carro
+5- Ir até o porta-malas e pegar o triângulo de sinalização
+6- Posicionar o triângulo entre 25 e 30 metros do veículo
+7- Retirar a chave de roda, o "macaco" e o estepe do porta-malas
+8- Identificar o pneu furado
+9- Com a chave de roda, afrouxar os parafusos do pneu furado
+10- Posicionar o "macaco" embaixo do carro, próximo ao pneu furado
+11- Levantar o carro até que o pneu furado fique suspenso no ar (sem tocar no chão)
+12- Remover completamente os parafusos da roda, usando a chave de roda
+13- Remover o pneu furado
+14- Posicionar o estepe, alinhando os furos da roda, com os dos parafusos
+15- Colocar os parafusos na posição correta, e apertá-los um pouco, para firmá-los
+16- Descer o carro completamente
+17- Apertar completamente os parafusos com a chave de roda, sempre em padrão cruzado
+18- Guardar chave de roda e o pneu furado no porta-malas
+19- Recolher triângulo de segurança
+20- Fechar o porta-malas
+21- Entrar no veículo
+22- Colocar o cinto e desligar o pisca-alerta
+23- Dar partida no veículo
+24- Seguir viagem

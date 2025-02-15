@@ -1,0 +1,6 @@
+-- 2)Criar um comando SELECT que retorne o nome do cliente e o nome da cidade de todos os registros. 
+
+    SELECT cli.cli_nome, cid.cidade_nome
+	  FROM clientes cli
+INNER JOIN cidades cid
+		ON cli.cidade_id = cid.cidade_id
