@@ -129,6 +129,7 @@ neijunio-testewebsinqia/
 * <p>OBSERVAÇÃO: Se o comando "<i>dotnet restore</i>" não instalar as dependências do Entity Framework, execute os seguintes comandos no terminal:</p>
   
    ```sh
+    dotnet add package Microsoft.EntityFrameworkCore
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer
     dotnet add package Microsoft.EntityFrameworkCore.Tools
     dotnet add package Microsoft.EntityFrameworkCore.Design
