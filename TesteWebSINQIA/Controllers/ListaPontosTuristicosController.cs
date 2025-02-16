@@ -94,7 +94,8 @@ namespace TesteWebSINQIA.Controllers
         [HttpPost]
         public IActionResult Excluir(PontosTuristicosModel pontoTuristico)
         {
-            if(pontoTuristico == null){
+            if (pontoTuristico == null)
+            {
                 return NotFound();
             }
 

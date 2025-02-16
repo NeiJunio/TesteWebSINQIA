@@ -95,7 +95,8 @@
             @if (ViewBag.PaginaAtual < ViewBag.TotalPaginas)
             {
                 <li class="page-item">
-                    <a class="page-link custom-focus" asp-action="Index" asp-route-pagina="@(ViewBag.PaginaAtual + 1)" aria-label="Next">
+                    <a class="page-link custom-focus" asp-action="Index" asp-route-pagina="@(ViewBag.PaginaAtual + 1)"
+                        aria-label="Next">
                         @* Aumenta 1 na variável pagina, que é enviada pela url por meio da asp-route-pagina*@
                         <i aria-hidden="true" class="bi bi-caret-right-fill custom-arrow-pagination"></i>
                     </a>

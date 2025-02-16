@@ -84,12 +84,14 @@
         <div class="form-group mb-3">
             <label for="Descricao" class="custom-text mb-2">Descrição</label>
             <textarea class="form-control custom-input" asp-for="Descricao" id="Descricao" maxlength="100" rows="3"
-                placeholder="Descreva brevemente o ponto turístico e seus atrativos..." style="resize: none;"></textarea>
+                placeholder="Descreva brevemente o ponto turístico e seus atrativos..."
+                style="resize: none;"></textarea>
             <span class="text-danger custom-span" asp-validation-for="Descricao"></span>
         </div>
 
         <div class="w-100 m-auto d-flex justify-content-between py-3">
-            <a asp-controller="Home" asp-action="Index" type="reset" class="btn btn-danger w-25 me-3 fw-bold">Cancelar</a>
+            <a asp-controller="Home" asp-action="Index" type="reset"
+                class="btn btn-danger w-25 me-3 fw-bold">Cancelar</a>
             <button type="submit" class="btn btn-success w-25 ms-3 fw-bold">Salvar</button>
         </div>
     </form>

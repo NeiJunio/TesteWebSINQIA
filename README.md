@@ -96,7 +96,7 @@ neijunio-testewebsinqia/
    ```
 
 ### 3. Configure o banco de dados
-* 1-  No arquivo appsettings.json, configure a string de conexão:
+* 1-  No arquivo <strong><i>appsettings.json<i></strong>, configure a string de conexão:
    ```json
    "ConnectionStrings": {
        "DefaultConnection": "Server=SEU_SERVIDOR;Database=TesteWebSINQIA;User Id=SEU_USUARIO;Password=SUA_SENHA;Trusted_Connection=True;TrustServerCertificate=True;"
@@ -110,10 +110,14 @@ neijunio-testewebsinqia/
     dotnet restore
    ```
 
-* 3- Instale Ferramente CLI dotnet-ef (gloabalmente)
+* 3- Instale a Ferramenta CLI dotnet-ef (gloabalmente)
    ```bash
     dotnet tool install --global dotnet-ef
    ```
+
+    se necessário, restaure as ferramentas locais com  `dotnet tool restore`
+    <br>
+    <!-- <br> -->
 
 * 4- Aplique as migrations e atualize o banco de dados:
    ```bash
@@ -125,7 +129,7 @@ neijunio-testewebsinqia/
     dotnet run
    ```
 
-    ou, se estiver usando o Visual Studio, pressione  `F5`
+    ou pressione  `F5`
 
 <br>
 

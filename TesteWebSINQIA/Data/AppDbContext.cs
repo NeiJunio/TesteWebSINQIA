@@ -13,6 +13,6 @@ namespace TesteWebSINQIA.Data
         {
         }
 
-        public DbSet<PontosTuristicosModel> PontosTuristicos {get; set;}
+        public DbSet<PontosTuristicosModel> PontosTuristicos { get; set; }
     }
 }

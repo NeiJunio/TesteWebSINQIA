@@ -30,7 +30,7 @@ button.accept-policy[b-74n62rkmwh] {
 }
 
 .footer[b-74n62rkmwh] {
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
