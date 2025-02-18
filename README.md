@@ -96,7 +96,7 @@ neijunio-testewebsinqia/
    ```
 
 ### 3. Configure o banco de dados
-* 1-  No arquivo <strong><i>appsettings.json<i></strong>, configure a string de conexão:
+* 1-  No arquivo <strong><i>appsettings.json</i></strong>, configure a string de conexão:
    ```json
    "ConnectionStrings": {
        "DefaultConnection": "Server=SEU_SERVIDOR;Database=TesteWebSINQIA;User Id=SEU_USUARIO;Password=SUA_SENHA;Trusted_Connection=True;TrustServerCertificate=True;"
