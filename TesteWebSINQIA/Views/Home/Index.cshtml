@@ -17,9 +17,9 @@
 
 <div class="w-100 mt-5 mb-5">
     <nav class="navbar navbar-light d-flex justify-content-center align-items-center w-100">
-        <form asp-action="Index" asp-controller="Home" method="get" class="form-inline d-flex w-50 gap-5">
+        <form asp-action="Index" asp-controller="Home" method="get" class="form-inline form-inputs-search d-flex  gap-5">
             <input class="form-control custom-input-search mr-sm-2 p-2" type="search" name="termoBusca"
-                placeholder="Digite um termo para buscar um Ponto Turístico..." value="@ViewBag.TermoBusca" /> @* Armazena o valor digitado na variável através da identificação name="termoBusca" *@
+                placeholder="Digite um termo..." value="@ViewBag.TermoBusca" /> @* Armazena o valor digitado na variável através da identificação name="termoBusca" *@
             <button class="btn custom-btn-search text-light my-2 my-sm-0 py-2 px-3 d-flex gap-3" type="submit">
                 <i class="bi bi-search"></i> Pesquisar
             </button>

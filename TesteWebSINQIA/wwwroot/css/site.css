@@ -51,6 +51,10 @@ body {
     font-weight: 500;
 }
 
+.form-inputs-search{
+    width: 70%;
+}
+
 .custom-btn-search {
     background-color: #fb4400;
     transition: transform 0.3s ease-in-out;
@@ -103,7 +107,7 @@ body {
     border-radius: 8px;
     background: white;
     box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.24);
-    min-height: 275px;
+    min-height: 250px;
 }
 
 .card-body {
